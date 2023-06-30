@@ -10,4 +10,4 @@ export GID
 export USER
 
 up: 
-	docker-compose up -d 
+	docker-compose up -d --build
